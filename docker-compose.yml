@@ -1,0 +1,43 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7
+    container_name: redis
+    command: redis-server --maxmemory 500mb --maxmemory-policy allkeys-lru
+    ports:
+      - "6379:6379"
+
+  response_generator:
+    build: ./response_generator
+    container_name: response_generator
+    volumes:
+      - ./data:/app/data
+    ports:
+      - "8001:8001"
+
+  cache_service:
+    build: ./cache_service
+    container_name: cache_service
+    depends_on:
+      - redis
+      - response_generator
+    environment:
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+      RESPONSE_GENERATOR_URL: http://response_generator:8001/query
+      CACHE_TTL: 300
+    volumes:
+      - ./metrics:/app/metrics
+    ports:
+      - "8000:8000"
+
+  traffic_generator:
+    build: ./traffic_generator
+    container_name: traffic_generator
+    depends_on:
+      - cache_service
+    environment:
+      CACHE_URL: http://cache_service:8000/query
+    ports:
+      - "8002:8002"

@@ -1,0 +1,101 @@
+event_type,query_type,latency_ms,cache_key,timestamp
+miss,Q2,12.135,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z4""}",1777235428.5904915
+miss,Q2,9.819,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z5""}",1777235428.6099684
+miss,Q4,10.714,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z5"", ""zone_b"": ""Z2""}",1777235428.6294103
+miss,Q5,12.607,"Q5:{""bins"": 10, ""zone_id"": ""Z1""}",1777235428.6522732
+miss,Q5,11.954,"Q5:{""bins"": 5, ""zone_id"": ""Z3""}",1777235428.6755044
+miss,Q1,10.831,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235428.6964555
+miss,Q2,10.314,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235428.716223
+miss,Q5,11.67,"Q5:{""bins"": 5, ""zone_id"": ""Z4""}",1777235428.7380192
+miss,Q1,10.768,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z4""}",1777235428.7587695
+miss,Q1,11.107,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z1""}",1777235428.7801728
+miss,Q1,9.853,"Q1:{""confidence_min"": 0.0, ""zone_id"": ""Z2""}",1777235428.8009436
+miss,Q4,10.932,"Q4:{""confidence_min"": 0.7, ""zone_a"": ""Z2"", ""zone_b"": ""Z4""}",1777235428.822103
+miss,Q1,10.345,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z2""}",1777235428.8425817
+miss,Q2,11.191,"Q2:{""confidence_min"": 0.0, ""zone_id"": ""Z3""}",1777235428.8636458
+hit,Q5,0.752,"Q5:{""bins"": 5, ""zone_id"": ""Z3""}",1777235428.8754005
+miss,Q3,11.065,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z1""}",1777235428.8958983
+miss,Q4,9.976,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z4"", ""zone_b"": ""Z1""}",1777235428.9169555
+miss,Q3,11.839,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z1""}",1777235428.939588
+miss,Q3,9.188,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z3""}",1777235428.9581907
+miss,Q4,11.534,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z5"", ""zone_b"": ""Z2""}",1777235428.978807
+miss,Q5,14.373,"Q5:{""bins"": 5, ""zone_id"": ""Z5""}",1777235429.0019133
+miss,Q1,10.695,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z5""}",1777235429.0230474
+miss,Q5,12.23,"Q5:{""bins"": 10, ""zone_id"": ""Z5""}",1777235429.0442407
+hit,Q1,0.797,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235429.0551066
+miss,Q3,10.101,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z4""}",1777235429.074759
+miss,Q4,12.337,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z2"", ""zone_b"": ""Z3""}",1777235429.0966506
+hit,Q3,1.423,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z1""}",1777235429.108212
+miss,Q3,10.641,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z1""}",1777235429.129157
+hit,Q1,0.794,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z5""}",1777235429.1389472
+miss,Q3,9.792,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z3""}",1777235429.1578832
+miss,Q2,9.899,"Q2:{""confidence_min"": 0.5, ""zone_id"": ""Z1""}",1777235429.1772132
+miss,Q3,11.556,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235429.1984484
+hit,Q3,0.735,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z1""}",1777235429.210468
+miss,Q3,11.998,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235429.231213
+miss,Q2,10.4,"Q2:{""confidence_min"": 0.0, ""zone_id"": ""Z4""}",1777235429.25153
+miss,Q1,10.092,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235429.2703216
+miss,Q1,10.902,"Q1:{""confidence_min"": 0.0, ""zone_id"": ""Z4""}",1777235429.291736
+miss,Q4,11.254,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z1"", ""zone_b"": ""Z3""}",1777235429.312185
+hit,Q5,0.795,"Q5:{""bins"": 10, ""zone_id"": ""Z1""}",1777235429.3228073
+miss,Q3,11.35,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z4""}",1777235429.3456657
+miss,Q4,10.825,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z1"", ""zone_b"": ""Z5""}",1777235429.3667789
+miss,Q3,9.584,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z2""}",1777235429.3875468
+miss,Q4,10.037,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z3"", ""zone_b"": ""Z5""}",1777235429.4061997
+miss,Q2,10.815,"Q2:{""confidence_min"": 0.5, ""zone_id"": ""Z3""}",1777235429.4259732
+hit,Q5,0.939,"Q5:{""bins"": 5, ""zone_id"": ""Z3""}",1777235429.4354398
+miss,Q2,9.272,"Q2:{""confidence_min"": 0.5, ""zone_id"": ""Z4""}",1777235429.4531898
+miss,Q1,11.401,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z3""}",1777235429.4745903
+miss,Q4,11.388,"Q4:{""confidence_min"": 0.7, ""zone_a"": ""Z3"", ""zone_b"": ""Z2""}",1777235429.4955075
+hit,Q1,1.517,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z5""}",1777235429.5068219
+miss,Q5,13.477,"Q5:{""bins"": 10, ""zone_id"": ""Z3""}",1777235429.5300345
+hit,Q1,1.064,"Q1:{""confidence_min"": 0.0, ""zone_id"": ""Z2""}",1777235429.540952
+hit,Q5,0.647,"Q5:{""bins"": 5, ""zone_id"": ""Z4""}",1777235429.551017
+miss,Q4,11.887,"Q4:{""confidence_min"": 0.7, ""zone_a"": ""Z1"", ""zone_b"": ""Z4""}",1777235429.5731819
+hit,Q5,0.747,"Q5:{""bins"": 5, ""zone_id"": ""Z5""}",1777235429.583549
+hit,Q3,0.665,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235429.5941865
+miss,Q5,10.15,"Q5:{""bins"": 10, ""zone_id"": ""Z2""}",1777235429.613795
+miss,Q1,9.218,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z1""}",1777235429.6343186
+miss,Q3,11.285,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z5""}",1777235429.6553748
+hit,Q3,0.759,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z5""}",1777235429.6654809
+miss,Q4,9.912,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z5"", ""zone_b"": ""Z4""}",1777235429.685484
+hit,Q5,0.813,"Q5:{""bins"": 5, ""zone_id"": ""Z4""}",1777235429.6963959
+miss,Q2,9.877,"Q2:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235429.716421
+hit,Q1,0.888,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235429.7274873
+miss,Q4,10.989,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z1"", ""zone_b"": ""Z4""}",1777235429.7468362
+hit,Q2,0.768,"Q2:{""confidence_min"": 0.0, ""zone_id"": ""Z3""}",1777235429.7577984
+hit,Q1,0.676,"Q1:{""confidence_min"": 0.0, ""zone_id"": ""Z4""}",1777235429.7681243
+miss,Q1,10.677,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z4""}",1777235429.7886314
+miss,Q4,10.832,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z4"", ""zone_b"": ""Z2""}",1777235429.808398
+miss,Q5,12.118,"Q5:{""bins"": 10, ""zone_id"": ""Z4""}",1777235429.8308046
+hit,Q1,0.652,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235429.8430865
+hit,Q4,0.893,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z2"", ""zone_b"": ""Z3""}",1777235429.8529897
+hit,Q4,0.673,"Q4:{""confidence_min"": 0.7, ""zone_a"": ""Z1"", ""zone_b"": ""Z4""}",1777235429.8638237
+miss,Q4,11.343,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z2"", ""zone_b"": ""Z5""}",1777235429.8844948
+hit,Q4,0.861,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z1"", ""zone_b"": ""Z4""}",1777235429.8959217
+miss,Q2,10.118,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z2""}",1777235429.9145937
+hit,Q4,0.782,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z1"", ""zone_b"": ""Z3""}",1777235429.9262905
+hit,Q1,0.71,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235429.9360943
+miss,Q3,10.987,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z5""}",1777235429.957023
+miss,Q4,11.857,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z4"", ""zone_b"": ""Z3""}",1777235429.9785233
+hit,Q5,0.675,"Q5:{""bins"": 5, ""zone_id"": ""Z5""}",1777235429.9900444
+hit,Q1,0.853,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z2""}",1777235430.0007703
+hit,Q5,0.713,"Q5:{""bins"": 10, ""zone_id"": ""Z4""}",1777235430.0122747
+miss,Q4,10.845,"Q4:{""confidence_min"": 0.0, ""zone_a"": ""Z5"", ""zone_b"": ""Z1""}",1777235430.0342774
+miss,Q5,11.899,"Q5:{""bins"": 5, ""zone_id"": ""Z1""}",1777235430.0564935
+miss,Q5,11.823,"Q5:{""bins"": 5, ""zone_id"": ""Z2""}",1777235430.0780265
+hit,Q3,0.688,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z1""}",1777235430.0889971
+hit,Q1,0.842,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z1""}",1777235430.099697
+hit,Q4,0.765,"Q4:{""confidence_min"": 0.5, ""zone_a"": ""Z3"", ""zone_b"": ""Z5""}",1777235430.1107512
+hit,Q2,1.304,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z4""}",1777235430.1222286
+hit,Q2,0.63,"Q2:{""confidence_min"": 0.7, ""zone_id"": ""Z2""}",1777235430.133989
+miss,Q3,11.048,"Q3:{""confidence_min"": 0.5, ""zone_id"": ""Z4""}",1777235430.1560793
+hit,Q5,0.862,"Q5:{""bins"": 5, ""zone_id"": ""Z3""}",1777235430.1664984
+hit,Q3,0.606,"Q3:{""confidence_min"": 0.0, ""zone_id"": ""Z3""}",1777235430.1775675
+hit,Q1,0.734,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z4""}",1777235430.189334
+hit,Q3,0.697,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235430.1994812
+hit,Q1,0.753,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235430.210395
+hit,Q5,0.855,"Q5:{""bins"": 10, ""zone_id"": ""Z2""}",1777235430.2223876
+hit,Q1,0.689,"Q1:{""confidence_min"": 0.5, ""zone_id"": ""Z2""}",1777235430.2325084
+hit,Q3,0.719,"Q3:{""confidence_min"": 0.7, ""zone_id"": ""Z1""}",1777235430.2423992
+hit,Q1,0.839,"Q1:{""confidence_min"": 0.7, ""zone_id"": ""Z3""}",1777235430.253559
